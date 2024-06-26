@@ -256,7 +256,8 @@ nav a:hover {
     width: 50px;
 }
 .footer-col ul {
-    background-color: rgba(99, 129, 114, 0.334);
+    border-radius: 8px;
+    background-color: rgba(117, 146, 131, 0.334);
     text-align: left;
     align-content: center;
     height: 100px;
