@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Header --------- */
+
+/* Navbar */
+#logo {
+    width: 82px;
+    height: 55px;
+    background-image: url(../Images/Salosalo_Logo.jpg);
+    background-size: cover;
+}
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(28, 79, 57);
+    box-shadow: 3px 3px 15px rgb(0, 0, 0, 0.6);
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;   
+}
+ #menu .menu {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+}
+nav li {
+    height: 90px;
+}
+nav a{
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(228, 255, 228);
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+}
+nav a:hover {
+    color: rgb(159, 212, 159);
+    padding-left: 9px;
+}
+#menu {
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(228, 255, 228);
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+}
+/* Section */
+#intro {
+    background-image: url(../Images/Background_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 90px;
+}
+#intro p {
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(158, 206, 165);
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#intro img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main --------- */
+
+/* lunch */
+#lunch-intro h1{
+    margin-top: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+    font-weight: 800;
+    color: #ffbc3a;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+#lunch-intro p{
+    margin: 20px;
+    font-family: "Poppins";
+    font-size: 45px;
+    font-weight: 800;
+    color: #ffbc3a;
+    text-shadow: 2px 2px 4px #1e1e1e;
+    text-align: center;
+}
+#lunch {
+    background-image: url(../Images/Background_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    padding: 70px 0;
+}
+
+/* dinner */
+#dinner-intro h1{
+    margin-top: 20px;
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+    font-weight: 800;
+    color: #ffeb52;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+#dinner-intro p{
+    margin: 20px;
+    font-family: "Poppins";
+    font-size: 45px;
+    font-weight: 800;
+    color: #ffbc3a;
+    text-shadow: 2px 2px 4px #1e1e1e;
+    text-align: center;
+}
+#dinner {
+    background-image: url(../Images/Background_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    padding: 70px 0;
+}  
+
+/* menu containers */
+.section-container {
+    margin-top: 20px;
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.6);
+    transition: ease-in-out;
+    max-width: 1450px;
+    margin: auto;
+}
+.section-col figcaption{
+    padding: 8px;
+    font-size: 18px;
+    color: rgb(28, 52, 28);
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    line-height: 20px;
+}
+.section-col h3 {
+    margin: 15px;
+    padding: 6px;
+    font-size: "EB Garamond", serif;
+    font-size: 25px;
+    color: #002926;
+    font-weight: 700;
+}
+.section-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section-col {
+    width: 350px;
+    height: auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.6);
+    transition: ease-in-out;
+    margin: 20px;
+    padding: 0 15px;
+}
+.section-row img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer ---------- */
+.container {
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ul-footer {
+    list-style: none;
+}
+.footer {
+    background-image: url(../Images/Background_4.jpg);
+    max-height: 100%;
+    width: auto;
+    padding: 70px 0;
+    justify-items: center;
+}
+.footer-col {
+    width: 350px;
+    height: auto;
+    background-color: #ffd695c4;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.6);
+    transition: ease-in-out;
+    margin: 20px;
+    padding: 0 15px;
+}
+.footer-col h4 {
+    font-size: 25px;
+    color: darkgreen;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    position: relative;
+}
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: green;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul {
+    background-color: rgba(99, 129, 114, 0.334);
+    text-align: left;
+    align-content: center;
+    height: 100px;
+    width: auto;
+    padding-left: 5px;
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer-col ul li a {
+    font-family: Roboto;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(16, 101, 16);
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+}
+.footer-col ul li a:hover {
+    color: rgb(0, 39, 0);
+    padding-left: 8px;
+}
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: green;
+}
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: white;
+}
+
+.backtotop-div {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    background-color: rgba(162, 212, 162, 0.804);
+}
+
+/* responsive */
+@media (max-width: 1280px) {
+    #lunch-intro h1 {
+        font-size: 50px;
+    }
+    #dinner-intro h1 {
+        font-size: 50px;
+    }
+    #lunch-intro p {
+        font-size: 25px;
+    }
+    #dinner-intro p {
+        font-size: 25px;
+    }
+    #intro p {
+        font-size: 25px;
+    }
+    }
+
+@media (max-width: 649px) {
+    #intro {
+        margin-top: 0;
+    }
+    nav {
+        position: static;
+    }
+}
